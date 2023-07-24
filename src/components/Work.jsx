@@ -3,11 +3,11 @@ import WorkImg from '../assets/work3.png';
 
 const Work = () => {
     return (
-        <div name='work' className='w-full md:h-screen text-gray-400 bg-[#0a192f]'>
+        <div name='work' className='w-full md:h-screen text-gray-400 bg-black'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 text-gray-400 border-[#7B8D01]'>Work</p>
-                    <p className='py-6 text-white'>Check out some of my projects</p>
+                    <p className='text-4xl font-bold inline border-b-4 text-gray-400 border-pink-500'>Work</p>
+                    <p className='py-6 text-white hover:text-pink-500'>Check out some of my projects</p>
                 </div>
 
                 <div
@@ -16,7 +16,7 @@ const Work = () => {
                 >
                     <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                         {/* hover effect */}
-                        <div className='opacity-0 group-hover:opacity-100 hover:text-[#7B8D01]'>
+                        <div className='opacity-0 group-hover:opacity-100 '>
                             <span className='text-2xl font-bold text-white tracking-wider opacity-100 '>
                                 React JS Application
                             </span>

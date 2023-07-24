@@ -9,12 +9,12 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-400 '>
+        <div name='skills' className='w-full h-screen bg-black text-gray-400 '>
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#7B8D01]'>Skills</p>
-                    <p className='py-4 text-white hover:text-[#7B8D01]' >I have experiance working with the following technologies below</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Skills</p>
+                    <p className='py-4 text-white hover:text-pink-500' >I have experiance working with the following technologies below</p>
                 </div>
 
                 <div className='w-full grid grid-cols-3 gap-4 text-center py-8 '>

@@ -23,10 +23,11 @@
 
 }
 
+
 .content-div:hover {
     background-image: linear-gradient(to right,
-            #98af03,
-            #637200) !important;
+            #ffb3c1,
+            #ff477e) !important;
     transition: 0.5s;
     opacity: 0.8;
 }
